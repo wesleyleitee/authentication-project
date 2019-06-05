@@ -1,13 +1,13 @@
-<div class="row mt-5">
-  <div class="col-md-4 mb-3" *ngFor="let event of events">
+<div class="row mt-5 justify-content-md-right mx-2">
+  <div class="mx-2 my-2" *ngFor="let event of events">
     <div class="card text-center">
       <div class="card-body">
         <h5 class="card-title">{{event.name}}</h5>
         <p class="card-text">{{event.description}}</p>
 
-        <a class="btn btn-primary text-break mx-2 my-2" href="#">aaaaaaaaaaaaaaaaaaaaaa</a>
+        <a class="btn btn-primary text-break mx-2 my-2" href="#">aaaaaaa</a>
 
-        <a class="btn btn-primary text-break mx-2 my-2" href="#" style="background-color: #EE7621">bbbbbbbbbbbbbbbbbbbbbbbbb</a>
+        <a class="btn btn-primary text-break mx-2 my-2" href="#" style="background-color: #EE7621">bbbbbbbb</a>
       </div>
       <div class="card-footer text-muted">
         {{event.date | date:'shortDate'}}
