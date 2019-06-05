@@ -39,7 +39,7 @@ router.get('/',(req,res)=>{
 router.post('/register', (req,res)=>{
     let userData = req.body
     let user = new User(userData)
-    User.save((error,registeredUser)=>{
+    user.save((error,registeredUser)=>{
         if(error){
             console.log(error)
         } else{
